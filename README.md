@@ -1,10 +1,11 @@
-# CSS-Scraper
+# CSS-Parser
 
-CSS-Scraper is a simple C++ application designed to scrape CSS files for specific content or structure. The program extracts and processes information from stylesheets, allowing users to analyze and manipulate CSS data.
+CSS-Parser is a C++ application that parses CSS files and extracts relevant information. It is designed to analyze and manipulate the structure and content of stylesheets, making it easier to process and use CSS data programmatically.
 
 ## Features
-- Scrapes CSS files and extracts relevant details.
-- Provides functionality to analyze and process CSS properties.
+- Parses CSS files and extracts information about CSS rules.
+- Supports various CSS properties and selectors.
+- Allows for easy extraction and manipulation of styles.
 
 ## Requirements
 - C++ Compiler (C++11 or later)
@@ -14,21 +15,23 @@ CSS-Scraper is a simple C++ application designed to scrape CSS files for specifi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/gum3k/CSS-Scraper.git
+   git clone https://github.com/gum3k/CSS-Parser.git
    ```
 
 2. Compile the program using a C++ compiler:
    ```bash
-   g++ -o css_scraper CSS.cpp
+   g++ -o css_parser CSS.cpp
    ```
 
 3. Run the program:
    ```bash
-   ./css_scraper
+   ./css_parser
    ```
 
 ## Usage
 
-To use the scraper, simply provide the path to a CSS file. The program will output the relevant information based on the content of the file.
+To use the parser, simply provide the path to a CSS file. The program will output the relevant parsed information, such as CSS rules, selectors, and properties.
 
-
+```bash
+./css_parser path_to_file.css
+```
